@@ -1,11 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Lab2 Simple app",
-  "version": "1",
+  "version": "3",
   "app": {
     "background": {
       "scripts": ["main.js"]
     }
   },
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDuKRdtwgk5rNq24R91LcSNjGFCvOZRdrqzn+wqVqlfQDlXEPU9cvjd2F7YeV8BIqSIumzuUiMMrsHGuQAUlLsIuizRjqLhLrRt5Iwg2ZX4xVFZNcxq/sbqnHViK6WZVXpPoO9msg0DgdG16R5z/FUQB0SD9RLBa1TOyDZT8f6HQwIDAQAB",
+  "permissions": ["pushMessaging"],
   "icons": { "128": "icon.png" }
 }
